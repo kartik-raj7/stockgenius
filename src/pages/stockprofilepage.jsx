@@ -10,9 +10,9 @@ const [data,setData] = useState([]);
 const [profiledata,setProfileData] = useState([]);
 const [pricechangedata,setPriceChangeData] = useState([]);
 const chartdata=async ()=>{
-   const response = await axiosGet(`${apiRouter.CHART_DATA}/AAPL`);
-   const stockdetails = await axiosGet(`${apiRouter.PROFILE_DATA}/AAPL`);
-   const stockpricechange = await axiosGet(`${apiRouter.PRICE_CHANGE}/AAPL`);
+   const response = await axiosGet(`${apiRouter.CHART_DATA}/META`);
+   const stockdetails = await axiosGet(`${apiRouter.PROFILE_DATA}/META`);
+   const stockpricechange = await axiosGet(`${apiRouter.PRICE_CHANGE}/META`);
    setData(response.data.historical);
    setProfileData(stockdetails.data);
    setPriceChangeData(stockpricechange.data);
@@ -25,7 +25,7 @@ useEffect(()=>{
     <div className={style.stockprofilecontent}>
     <StockHeaderDiv data={profiledata}/>
     <div className={style.stockprofilechart}>
-    {data&&<CandlestickChart data={data} chartname={"APPLE"}/>}
+    {data&&<CandlestickChart data={data} chartname={profiledata.companyName}/>}
     </div>
     <div className={style.stockprofilechartpricechange}>
      
