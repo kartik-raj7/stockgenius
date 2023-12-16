@@ -1,0 +1,35 @@
+$primary-color: white;//#66e3c461
+$secondary-color:#8566e3;
+$custom-font: 'Cigalir', sans-serif;
+$custom-font1:'Abuticin',sans-serif;
+$Roboto:'Roboto',sans-serif;
+$tablet:1076px;
+$mobile:576px;
+$desktop:1100px;
+$bordercolor:#A8A8A8;
+$headingdesktop:1.1rem;
+$headingtablet:0.9rem;
+$headingmobile:0.75rem;
+$textdesktop:1rem;
+$texttablet:0.85rem;
+$textmobile:0.70rem;
+$tagtexttablet:0.70rem;
+$tagtextmobile:0.5rem;
+$tablet-screen:834px;
+$mobile-screen:576px;
+$green500: #00b386;
+$green300: #66e3c4;
+$purple500: #5367ff;
+@font-face {
+    font-family: 'Cigalir';
+    src: url('/fonts/Cigalir.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Abuticin';
+    src: url('/fonts/abuticin.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+  }
+

@@ -1,0 +1,27 @@
+@import './variable.scss';
+.homepage{
+    min-height: 75vh;
+    padding: 20px;
+    font-family: $Roboto;
+}
+  
+  .stockList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    .stockItem {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .overallStats {
+    margin-top: 20px;
+  }
+  .healthmeter{
+    width: 80%;
+  }

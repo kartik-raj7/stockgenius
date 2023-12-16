@@ -1,0 +1,20 @@
+@import './variable.scss';
+.landingpage{
+    background-color: $primary-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.landingpagebtn{
+    background-color: black;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    margin-top: 30px;
+}
+.landingpagetext{
+    font-size: 30px;
+    font-family: $custom-font1;
+}

@@ -1,0 +1,25 @@
+@import './variable.scss';
+.profile{
+   height: 100vh;
+   top: 0;
+   font-family: $Roboto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.userprofileform{
+    width: 80%;
+}
+.userprofilerows{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input{
+    
+}
+.userprofilesubmitbtn{
+    background-color: black;
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 8px;
+}

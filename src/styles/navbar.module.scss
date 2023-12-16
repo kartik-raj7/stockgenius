@@ -1,0 +1,45 @@
+@import './variable.scss';
+.navbaroptions{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family:$Roboto;
+}
+.navbaroptionsmobile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logostyle{
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+    @media(max-width:$mobile-screen){
+        width: 30px;
+        height: 30px;
+    }
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.navbarstyle{
+    background-color: black;
+    color: white;
+}
+.companyname{
+    color: white;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-family:$Roboto;
+}
+.navlinks{
+    font-family:$Roboto;
+    transition:border 0.5s ease-in;
+    padding: 4px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

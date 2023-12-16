@@ -1,0 +1,30 @@
+@import './variable.scss';
+.stockheading{
+    font-size: $headingdesktop;
+    font-weight: bold;
+    color:black;
+    ;
+    padding: 20px;
+    @media (max-width:$tablet){
+        font-size: $headingtablet;
+    }
+    @media (max-width:$mobile){
+        font-size: $headingmobile;
+    }
+}
+.stockdescription{
+    padding: 20px;
+    font-size:$textdesktop;
+    @media (max-width:$tablet){
+        font-size: $texttablet;
+    }
+    @media (max-width:$mobile){
+        font-size: $textmobile;
+    }
+}
+.stockfundamentals{
+    flex-wrap: wrap;
+}
+.stockheadingdiv{
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,19 @@
+@import './variable.scss';
+.addstockspage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.addstocks{
+    width: 80%;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 75vh;
+}
+.addportfolioname{
+    font-family: $Roboto;
+}
