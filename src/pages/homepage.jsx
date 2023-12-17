@@ -7,12 +7,12 @@ const { Text } = Typography;
 
 const Homepage = () => {
   const stocks = [
-    { stockName: 'Stock A', symbol: 'A', currentPrice: 50, quantity: 10, averagePrice: 45 },
-    { stockName: 'Stock B', symbol: 'B', currentPrice: 75, quantity: 8, averagePrice: 70 },
-    { stockName: 'Stock C', symbol: 'C', currentPrice: 45, quantity: 8, averagePrice: 70 },
-    { stockName: 'Stock D', symbol: 'D', currentPrice: 35, quantity: 8, averagePrice: 70 },
-    { stockName: 'Stock E', symbol: 'E', currentPrice: 25, quantity: 8, averagePrice: 70 },
-    { stockName: 'Stock F', symbol: 'F', currentPrice: 15, quantity: 8, averagePrice: 70 },
+    { stockName: 'Apple', symbol: 'A', currentPrice: 50, quantity: 10, averagePrice: 45 },
+    { stockName: 'Meta', symbol: 'B', currentPrice: 75, quantity: 8, averagePrice: 70 },
+    { stockName: 'Microsoft', symbol: 'C', currentPrice: 45, quantity: 8, averagePrice: 70 },
+    { stockName: 'Grab', symbol: 'D', currentPrice: 35, quantity: 8, averagePrice: 70 },
+    { stockName: 'Openinapp', symbol: 'E', currentPrice: 25, quantity: 8, averagePrice: 70 },
+    { stockName: 'Unilever', symbol: 'F', currentPrice: 15, quantity: 8, averagePrice: 70 },
   ];
   const overallGainLoss = stocks.reduce((total, stock) => {
     const currentTotalValue = stock.quantity * stock.currentPrice;

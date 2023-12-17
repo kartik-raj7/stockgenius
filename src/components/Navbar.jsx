@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <Row className={style.navbarstyle}>
       <Col xs={12} md={10} lg={12} className={style.logocontainer}>
-      <Link to="/home" className={style.logocontainer}>
+      <Link to="/" className={style.logocontainer}>
         <img src="/stocks.gif" className={style.logostyle} />
         <Typography className={style.companyname}>Stock Genius</Typography>
         </Link>
